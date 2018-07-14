@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+.null-test{
+	background-color: #000000;
+	color: white;
+}
+
+.background{
+	background-color: #dcdcdc;
+}
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body, html {
+    height: 100%;
+    line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("content\\hero.jpg");
+    min-height: 100%;
+}
+.w3-bar .w3-button {
+    padding: 16px;
+}
+
+
+.article-pane{
+	background-color: #ffffff;
+}
+
+.top-buffer { 
+	margin-top:20px; 
+}
+
+.hero-image__figure img {
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+}
+
+.nav-pin{
+	float: right;
+}
+
+.nav-text{
+  text-align: center;
+  font-size: 20px;
+  font-family: Droid Sans;
+  color: white;
+}
+
+.hero-image {
+  background-image: url("Content\\Mars.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  font-family: Droid Sans;
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.name-text{
+  text-align: center;
+  font-size: 25px;
+  font-family: Droid Sans;
+  color: white;
+}
+
+.navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+p.indent{ 
+  text-indent: 30px
+}
+    /* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+
+body, html {
+height: 100%;
+margin: 0;
+}
